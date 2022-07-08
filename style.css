@@ -30,8 +30,8 @@ a {
 
 .imagemPrincipal {
   background-image: url("./imagem/Fundo.jpeg");
-  width: 100%;
-  height: 500px;
+  width: 205vh;
+  height: 50vh;
   object-fit: cover;
   background-size: cover;
   text-align: center;
