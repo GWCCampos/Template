@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  background-color: #f6f6f6;
+  width: 100%;
+  border-bottom: solid 3px #333333;
+}
+
+.titulo {
+  color: #243757;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #243757;
+}
+
+.imagemPrincipal {
+  background-image: url("./imagem/Fundo.jpeg");
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffea;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.slogan {
+  display: flex;
+  width: 100%;
+  height: 37px;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #d0e0eb;
+}
+
+.slogan span {
+  opacity: 100%;
+}
+
+.container {
+  margin-top: -5px;
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linha {
+  margin-top: 10px;
+  height: 1.7px;
+  width: 500px;
+  background-color: black;
+  border: none;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+i {
+  padding-top: 10px;
+  font-size: 35px;
+  color: #243757;
+}
+
+.iStar {
+  font-size: 22px;
+}
+
+.cardInfo {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  color: #243757;
+  font-size: 30px;
+  border-top: solid 3px #243757;
+}
