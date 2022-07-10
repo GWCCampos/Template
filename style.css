@@ -34,7 +34,7 @@ a {
 }
 
 .imagemPrincipal {
-  background-image: url("./imagem/Fundo.jpeg");
+  background-image: url("./imagem/Fundo1.jpg");
   width: 100vmax;
   min-height: 50vh;
   object-fit: cover;
@@ -46,6 +46,38 @@ a {
   color: #ffffea;
   font-size: 25px;
   justify-content: center;
+}
+
+.title-image {
+  font-size: 45px;
+  color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px #333333;
+}
+
+.text-image {
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px #333333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 25px;
+  height: 15px;
+  margin: 2px;
+  border: 0px;
+  border-radius: 30%;
+  background-color: dimgrey;
+}
+
+.buttons button:hover {
+  background-color: #333333;
 }
 
 .slogan {
