@@ -35,6 +35,7 @@ a {
 
 .imagemPrincipal {
   background-image: url("./imagem/Fundo1.jpg");
+  transition: background-image 2s;
   width: 100vmax;
   min-height: 50vh;
   object-fit: cover;
