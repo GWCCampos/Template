@@ -63,21 +63,20 @@ a {
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .buttons button {
   width: 25px;
   height: 15px;
-  margin: 2px;
   border: 0px;
   border-radius: 30%;
-  background-color: dimgrey;
+  background-color: #333333;
+  opacity: 50%;
 }
 
 .buttons button:hover {
-  background-color: #333333;
+  opacity: 90%;
 }
 
 .slogan {
